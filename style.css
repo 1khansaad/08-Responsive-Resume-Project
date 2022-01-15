@@ -46,11 +46,11 @@ body {
   height: 230px;
   width: 230px;
 
-  margin: 0 30px 30px;
-
   border-radius: 125px;
 }
 .img-bx {
+  text-align: center;
+
   padding-bottom: 20px;
 
   border-bottom: 2px solid #555;
@@ -60,6 +60,7 @@ body {
 }
 .icon {
   margin-right: 40px;
+  color: lightskyblue;
 }
 .contact-bx h3 {
   margin: 10px 0;
@@ -83,7 +84,7 @@ li {
 
   margin-bottom: 15px;
 
-  color: cornflowerblue;
+  color: lightskyblue;
 }
 .percent {
   position: relative;
@@ -91,6 +92,7 @@ li {
   display: block;
 
   width: 100%;
+  max-width: 400px;
   height: 6px;
 
   border-radius: 3px;
@@ -122,4 +124,159 @@ li {
   background: lightskyblue;
 
   border-radius: 3px;
+}
+
+.profile-bx h2 {
+  margin-bottom: 25px;
+
+  color: #003147;
+}
+.profile-bx p {
+  line-height: 20px;
+
+  color: #555;
+}
+.experience-bx h2 {
+  margin: 50px 0 0;
+
+  color: #003147;
+}
+.comp-detail {
+  font-size: 15px;
+}
+.exp-bx {
+  display: flex;
+  justify-content: space-between;
+}
+.designation {
+  width: 370px;
+}
+.designation h4 {
+  color: #003147;
+}
+.experience-bx h2 {
+  margin-bottom: 25px;
+}
+.exp-bx {
+  margin-bottom: 20px;
+}
+.skills h2 {
+  margin: 50px 0 20px;
+
+  color: #003147;
+}
+.types span {
+  display: block;
+  margin: 10px 0;
+}
+.bar span {
+  display: block;
+
+  width: 100%;
+  height: 6px;
+
+  margin: 10px 0 24px;
+
+  background: #555;
+
+  border-radius: 3px;
+}
+.flex {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.level .seventy {
+  width: 70%;
+  height: 6px;
+
+  border-radius: 3px;
+
+  background: lightskyblue;
+}
+.level .ninety {
+  width: 90%;
+  height: 6px;
+
+  border-radius: 3px;
+
+  background: lightskyblue;
+}
+.level .ninetyy {
+  width: 90%;
+  height: 6px;
+
+  border-radius: 3px;
+
+  background: lightskyblue;
+}
+.level .eighty-five {
+  width: 85%;
+  height: 6px;
+
+  border-radius: 3px;
+
+  background: lightskyblue;
+}
+.level .eighty {
+  width: 80%;
+  height: 6px;
+
+  border-radius: 3px;
+
+  background: lightskyblue;
+}
+.bar {
+  position: relative;
+}
+.level .seventy {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.level .eighty-five {
+  position: absolute;
+  top: 90px;
+  left: 0;
+}
+.level .eighty {
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+.level .ninety {
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+.level .ninetyy {
+  position: absolute;
+  top: 120px;
+  left: 0;
+}
+.interest h2 {
+  margin-top: 25px;
+
+  color: #003147;
+}
+.interest span {
+  display: block;
+
+  margin: 15px;
+}
+.interest i {
+  padding-right: 30px;
+
+  color: black;
+
+  font-size: 20px;
+}
+.side-two p,
+.side-two span {
+  color: #555;
+}
+@media screen and (max-width: 900px) {
+  .container {
+    margin: 5px;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
