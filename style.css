@@ -58,9 +58,13 @@ body {
 .content {
   display: flex;
 }
+.side-one p,
+.side-one span,
+.side-one li {
+  color: #999;
+}
 .icon {
   margin-right: 40px;
-  color: lightskyblue;
 }
 .contact-bx h3 {
   margin: 10px 0;
