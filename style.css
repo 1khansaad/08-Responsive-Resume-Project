@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: lightskyblue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: relative;
+
+  width: 100%;
+  max-width: 1000px;
+  height: 100vh;
+  min-height: 1000px;
+
+  margin: 50px 0;
+
+  background: #fff;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.side-one {
+  position: relative;
+
+  background: #003147;
+
+  padding: 10px 40px;
+}
+.side-two {
+  position: relative;
+
+  background: #fff;
+
+  padding: 40px;
+}
+.img-bx img {
+  height: 230px;
+  width: 230px;
+
+  border-radius: 125px;
+}
+.img-bx {
+  text-align: center;
+
+  padding-bottom: 20px;
+
+  border-bottom: 2px solid #555;
+}
+.content {
+  display: flex;
+}
+.side-one p,
+.side-one span,
+.side-one li {
+  color: #999;
+}
+.icon {
+  margin-right: 40px;
+}
+.contact-bx h3 {
+  margin: 10px 0;
+}
+li {
+  list-style-type: none;
+
+  padding: 5px 0;
+}
+.education-bx h3 {
+  margin: 10px 0 20px;
+}
+.clg {
+  margin: 20px 0;
+}
+.clg > * {
+  line-height: 20px;
+}
+.clg span {
+  display: inline-block;
+
+  margin-bottom: 15px;
+
+  color: lightskyblue;
+}
+.percent {
+  position: relative;
+
+  display: block;
+
+  width: 100%;
+  max-width: 400px;
+  height: 6px;
+
+  border-radius: 3px;
+
+  margin-top: 5px;
+
+  background: #000;
+}
+.languages h3 {
+  margin-bottom: 20px;
+}
+.languages span {
+  margin-bottom: 15px;
+}
+.languages progress {
+  width: 100%;
+}
+.sixty {
+  width: 60%;
+  height: 6px;
+
+  background: lightskyblue;
+
+  border-radius: 3px;
+}
+.ninety {
+  width: 90%;
+  height: 6px;
+
+  background: lightskyblue;
+
+  border-radius: 3px;
+}
+.eighty {
+  width: 80%;
+  height: 6px;
+
+  background: lightskyblue;
+
+  border-radius: 3px;
+}
+
+.profile-bx h2 {
+  margin-bottom: 25px;
+
+  color: #003147;
+}
+.profile-bx p {
+  line-height: 20px;
+
+  color: #555;
+}
+.experience-bx h2 {
+  margin: 50px 0 0;
+
+  color: #003147;
+}
+.comp-detail {
+  font-size: 15px;
+}
+.exp-bx {
+  display: flex;
+  justify-content: space-between;
+}
+.designation {
+  width: 370px;
+}
+.designation h4 {
+  color: #003147;
+}
+.experience-bx h2 {
+  margin-bottom: 25px;
+}
+.exp-bx {
+  margin-bottom: 20px;
+}
+.skills h2 {
+  margin: 50px 0 20px;
+
+  color: #003147;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.progress progress {
+  display: block;
+
+  margin-top: 12px;
+
+  width: 100%;
+}
+.types span {
+  display: block;
+  margin: 10px 0;
+}
+.bar span {
+  display: block;
+
+  width: 100%;
+  height: 6px;
+
+  margin: 10px 0 24px;
+
+  background: #555;
+
+  border-radius: 3px;
+}
+.flex {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.level .seventy {
+  width: 70%;
+  height: 6px;
+
+  border-radius: 3px;
+
+  background: lightskyblue;
+}
+.level .ninety {
+  width: 90%;
+  height: 6px;
+
+  border-radius: 3px;
+
+  background: lightskyblue;
+}
+.level .ninetyy {
+  width: 90%;
+  height: 6px;
+
+  border-radius: 3px;
+
+  background: lightskyblue;
+}
+.level .eighty-five {
+  width: 85%;
+  height: 6px;
+
+  border-radius: 3px;
+
+  background: lightskyblue;
+}
+.level .eighty {
+  width: 80%;
+  height: 6px;
+
+  border-radius: 3px;
+
+  background: lightskyblue;
+}
+.bar {
+  position: relative;
+}
+.level .seventy {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.level .eighty-five {
+  position: absolute;
+  top: 90px;
+  left: 0;
+}
+.level .eighty {
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+.level .ninety {
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+.level .ninetyy {
+  position: absolute;
+  top: 120px;
+  left: 0;
+}
+.interest h2 {
+  margin-top: 25px;
+
+  color: #003147;
+}
+.interest span {
+  display: block;
+
+  margin: 15px;
+}
+.interest i {
+  padding-right: 30px;
+
+  color: black;
+
+  font-size: 20px;
+}
+.side-two p,
+.side-two span {
+  color: #555;
+}
+@media screen and (max-width: 900px) {
+  .container {
+    margin: 5px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
